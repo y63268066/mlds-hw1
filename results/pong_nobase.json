@@ -1,0 +1,6 @@
+{
+ "n_train_episodes": 570,
+ "train_last100_mean": -20.19,
+ "eval_mean": -20.098,
+ "eval_std": 1.0394209926685143
+}

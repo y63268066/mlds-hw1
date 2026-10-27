@@ -1,0 +1,24 @@
+{
+ "args": {
+  "env": "cartpole",
+  "baseline": "none",
+  "episodes": 1500,
+  "batch": 1,
+  "lr": 0.001,
+  "blr": 0.001,
+  "seed": 2,
+  "tag": "cp_nobase_s2",
+  "eval_episodes": 500,
+  "log_every": 100,
+  "max_seconds": 0,
+  "skip_eval": false
+ },
+ "n_train_episodes": 1500,
+ "train_last100_mean": 314.58,
+ "train_grad_norm_mean": 562.913581161499,
+ "train_grad_norm_std": 419.9029223405843,
+ "eval_mean": 178.862,
+ "eval_std": 32.91460095459156,
+ "eval_min": 30.0,
+ "eval_max": 259.0
+}

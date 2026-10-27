@@ -1,0 +1,89 @@
+{
+ "returns_vs_naive_max_err": 0.0,
+ "returns_hand_check [1,1,1],g=.5 -> [1.75,1.5,1]": [
+  1.75,
+  1.5,
+  1.0
+ ],
+ "pong_returns_reset_vs_naive_max_err": 0.0,
+ "pong_no_leak_across_points (G at t=21..45 uses only +1 point)": true,
+ "cartpole_logp_vs_log_softmax": 5.960464477539063e-08,
+ "pong_logp_vs_sigmoid": 5.960464477539063e-08,
+ "pong_logp_finite_at_saturation": true,
+ "grad_estimator[no baseline]": {
+  "mean": [
+   -0.33416733145713806,
+   0.2756238281726837,
+   0.05854349955916405
+  ],
+  "exact": [
+   -0.3358028829097748,
+   0.27935338020324707,
+   0.05644959211349487
+  ],
+  "max_abs_z": 1.4773162603378296,
+  "cosine": 0.9999743103981018,
+  "per_sample_variance": 2.798736333847046
+ },
+ "grad_estimator[constant baseline = mean reward]": {
+  "mean": [
+   -0.33557870984077454,
+   0.27823957800865173,
+   0.05733909085392952
+  ],
+  "exact": [
+   -0.3358028829097748,
+   0.27935338020324707,
+   0.05644959211349487
+  ],
+  "max_abs_z": 1.416458249092102,
+  "cosine": 0.9999961256980896,
+  "per_sample_variance": 0.24580562114715576
+ },
+ "grad_estimator[badly-scaled baseline b=10]": {
+  "mean": [
+   -0.3418240249156952,
+   0.28981417417526245,
+   0.052009619772434235
+  ],
+  "exact": [
+   -0.3358028829097748,
+   0.27935338020324707,
+   0.05644959211349487
+  ],
+  "max_abs_z": 1.485584020614624,
+  "cosine": 0.999872624874115,
+  "per_sample_variance": 42.20469665527344
+ },
+ "preprocess_shape,min,max,frac_nonzero": [
+  [
+   80,
+   80
+  ],
+  0.0,
+  1.0,
+  0.0028125
+ ],
+ "pong_first_state_is_zero_diff": true,
+ "pong_diff_values": [
+  -1,
+  0,
+  1
+ ],
+ "pong_episode_len,reward_random_init": [
+  764,
+  -21.0
+ ],
+ "pong_action_meanings": [
+  "RIGHT",
+  "LEFT"
+ ],
+ "pong_min_max_episode_reward_bounds_ok": true,
+ "same_seed_identical_rewards": true,
+ "different_seed_differs": true,
+ "cartpole_untrained_policy_mean,std": [
+  17.86,
+  2.0150434238497197
+ ],
+ "pong_agent_steps_per_second_1cpu": 1759.38468363507
+}

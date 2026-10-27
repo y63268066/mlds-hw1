@@ -1,0 +1,24 @@
+{
+ "args": {
+  "env": "pong",
+  "baseline": "value",
+  "episodes": 100000,
+  "batch": 4,
+  "lr": 0.001,
+  "blr": 0.001,
+  "seed": 0,
+  "tag": "pong_value",
+  "eval_episodes": 500,
+  "log_every": 50,
+  "max_seconds": 480.0,
+  "skip_eval": false
+ },
+ "n_train_episodes": 565,
+ "train_last100_mean": -18.88,
+ "train_grad_norm_mean": 11.724255642992384,
+ "train_grad_norm_std": 4.189030320363902,
+ "eval_mean": -18.102,
+ "eval_std": 1.803218234158029,
+ "eval_min": -21.0,
+ "eval_max": -10.0
+}
