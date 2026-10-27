@@ -1,5 +1,5 @@
 # MLDS Assignment 1 - RL (Value/Policy Iteration, Policy Gradient)
-GitHub user: y63268066   (repository name/link: fill in after pushing this folder)
+GitHub user: y63268066   
 
 ## Setup
 pip install numpy matplotlib torch gymnasium ale-py reportlab   (ale-py bundles the Atari ROMs)
